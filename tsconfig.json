@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"compilerOptions": {
 		"outDir": "dist",
 		"declaration": true,
@@ -11,4 +12,18 @@
 		"strictNullChecks": true
 	},
 	"include": ["lib/**/*.ts"]
+=======
+  "compilerOptions": {
+    "target": "ESNext",
+    "baseUrl": ".",
+    "module": "ESNext",
+    "lib": ["ES2023"],
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": ["src"],
+>>>>>>> ce1ce052f341cb1d8920610eb23d5ba9fe29a4b3
 }
