@@ -14,6 +14,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.jsI18nLngsVersion = void 0;
 __exportStar(require("./gemini-supports"), exports);
 __exportStar(require("./gemini-supports-en"), exports);
 __exportStar(require("./lngs-arr"), exports);
@@ -23,3 +24,4 @@ __exportStar(require("./lngs-chrome-zh-CN"), exports);
 __exportStar(require("./lngs-en"), exports);
 __exportStar(require("./lngs-zhCN"), exports);
 __exportStar(require("./lng-locale"), exports);
+exports.jsI18nLngsVersion = "1.0.22";
