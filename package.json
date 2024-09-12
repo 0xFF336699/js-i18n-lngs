@@ -1,13 +1,13 @@
 {
   "name": "@0xff336699/js-i18n-lngs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "i18n lngs",
   "private": true,
   "sideEffects": false,
   "files": [
     "dist/**"
   ],
-  "types": "index.ts",
+  "types": "./@types/index.ts",
   "main": "./dist/index.js",
   "scripts": {
     "clean:bundle": "pnpx rimraf dist",
