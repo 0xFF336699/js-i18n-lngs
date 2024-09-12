@@ -1,1 +1,1 @@
-export * from '@lib/i18n/lngs/index'
+export * from '@lib/index'
