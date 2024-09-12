@@ -1,12 +1,16 @@
 {
   "name": "@0xff336699/js-i18n-lngs",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "i18n lngs",
   "private": true,
   "sideEffects": false,
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./lib/index.ts",
+  "files": [
+    "dist/**",
+    "lib/**"
+  ],
   "scripts": {
     "clean:bundle": "pnpx rimraf dist",
     "clean:node_modules": "pnpx rimraf node_modules",
