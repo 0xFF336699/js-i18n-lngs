@@ -11,3 +11,5 @@ export * from './lng-locale'
 export interface SupportLngMap {
     [key: string]: string;
   }
+
+  export const jsI18nLngsVersion = `1.0.22`

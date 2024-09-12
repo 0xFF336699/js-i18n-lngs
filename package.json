@@ -1,6 +1,6 @@
 {
   "name": "@0xff336699/js-i18n-lngs",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "i18n lngs",
   "private": true,
   "sideEffects": false,
