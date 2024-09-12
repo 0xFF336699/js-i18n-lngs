@@ -6,7 +6,7 @@
   "sideEffects": false,
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
-  "types": "./src/types/index.ts",
+  "types": "./src/index.ts",
   "files": [
     "dist/**",
     "src/**"
