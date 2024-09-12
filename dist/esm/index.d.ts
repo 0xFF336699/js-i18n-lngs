@@ -13,4 +13,4 @@ export interface SupportLngMap {
 export interface II18nMap {
     [key: string]: string | II18nMap;
 }
-export declare const jsI18nLngsVersion = "1.0.30";
+export declare const jsI18nLngsVersion = "1.0.31";
