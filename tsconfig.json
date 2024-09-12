@@ -21,7 +21,8 @@
       "ESNext"
     ],
     "paths": {
-      "@lib/*": ["./lib/*"]
+      "@lib/*": ["./lib/*"],
+      "@types/*":["./@types/*"]
     },
     "declaration": true,
     "module": "CommonJS",
