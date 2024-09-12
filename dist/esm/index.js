@@ -7,4 +7,4 @@ export * from './lngs-chrome-zh-CN';
 export * from './lngs-en';
 export * from './lngs-zhCN';
 export * from './lng-locale';
-export var jsI18nLngsVersion = "1.0.22";
+export var jsI18nLngsVersion = "1.0.25";

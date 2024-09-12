@@ -24,4 +24,4 @@ __exportStar(require("./lngs-chrome-zh-CN"), exports);
 __exportStar(require("./lngs-en"), exports);
 __exportStar(require("./lngs-zhCN"), exports);
 __exportStar(require("./lng-locale"), exports);
-exports.jsI18nLngsVersion = "1.0.22";
+exports.jsI18nLngsVersion = "1.0.25";

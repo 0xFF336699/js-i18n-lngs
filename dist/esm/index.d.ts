@@ -10,4 +10,4 @@ export * from './lng-locale';
 export interface SupportLngMap {
     [key: string]: string;
 }
-export declare const jsI18nLngsVersion = "1.0.22";
+export declare const jsI18nLngsVersion = "1.0.25";
