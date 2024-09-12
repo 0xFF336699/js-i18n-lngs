@@ -1,9 +1,10 @@
 {
   "name": "@0xff336699/js-i18n-lngs",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "i18n lngs",
   "private": true,
   "sideEffects": false,
+  "type": "module",
   "files": [
     "dist/**",
     "lib/**"
