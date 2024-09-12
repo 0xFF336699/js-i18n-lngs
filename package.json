@@ -1,6 +1,6 @@
 {
   "name": "@0xff336699/js-i18n-lngs",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "i18n lngs",
   "private": true,
   "sideEffects": false,
@@ -9,14 +9,17 @@
     "dist/**",
     "lib/**"
   ],
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
   "types": "./lib/index.ts",
-  "main": "./dist/index.js",
   "scripts": {
     "clean:bundle": "pnpx rimraf dist",
     "clean:node_modules": "pnpx rimraf node_modules",
     "clean:turbo": "pnpx rimraf .turbo",
     "clean": "pnpm clean:bundle && pnpm clean:node_modules && pnpm clean:turbo",
-    "build": "node build.mjs",
+    "build:esm": "tsc --module es2015 --target es5 --outDir dist/esm",
+    "build:cjs": "tsc --module commonjs --target es5 --outDir dist/cjs",
+    "build": "pnpm build:esm && pnpm build:cjs",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "pnpm lint --fix",
     "prettier": "prettier . --write --ignore-path ../../.prettierignore",

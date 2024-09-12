@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../lib/index.ts"],
-  "sourcesContent": ["export * from './gemini-supports';\nexport * from './gemini-supports-en';\nexport * from './lngs-arr';\nexport * from './lngs-chrome-locale';\nexport * from './lngs-chrome';\nexport * from './lngs-chrome-zh-CN';\nexport * from './lngs-en';\nexport * from './lngs-zhCN';\nexport * from './lng-locale'\nexport * from './type'"],
-  "mappings": "AAAA,cAAc;AACd,cAAc;AACd,cAAc;AACd,cAAc;AACd,cAAc;AACd,cAAc;AACd,cAAc;AACd,cAAc;AACd,cAAc;AACd,cAAc;",
-  "names": []
-}

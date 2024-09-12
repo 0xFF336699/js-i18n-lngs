@@ -2,9 +2,7 @@
 	"compilerOptions": {
 		"outDir": "dist",
 		"declaration": true,
-    "target": "es5",
-    "module": "commonjs",
-		"lib": ["es6", "dom"],
+		"lib": ["ESNext", "dom"],
 		"allowSyntheticDefaultImports": true,
 		"forceConsistentCasingInFileNames": true,
 		"noImplicitReturns": true,
@@ -12,5 +10,5 @@
 		"experimentalDecorators": true,
 		"strictNullChecks": true
 	},
-	"include": ["lib/**/*"]
+	"include": ["lib/**/*.ts"]
 }
