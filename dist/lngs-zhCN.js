@@ -1,4 +1,3 @@
-"use strict";
 export const lngsZhCN = {
   "Cy-az-AZ": "\u963F\u585E\u62DC\u7586\u8BED\uFF08\u897F\u91CC\u5C14\u5B57\u6BCD\uFF09",
   "Cy-sr-SP": "\u585E\u5C14\u7EF4\u4E9A\u8BED\uFF08\u897F\u91CC\u5C14\u5B57\u6BCD\uFF09",

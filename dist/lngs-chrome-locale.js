@@ -1,4 +1,3 @@
-"use strict";
 export const lngsChromeLocale = {
   "af": "Afrikaans",
   "am": "\u12A0\u121B\u122D\u129B",

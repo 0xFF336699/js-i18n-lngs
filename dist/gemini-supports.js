@@ -1,4 +1,3 @@
-"use strict";
 export const geminiSupports = {
   "sq": "\u963F\u5C14\u5DF4\u5C3C\u4E9A\u8BED",
   "am": "\u963F\u59C6\u54C8\u62C9\u8BED",

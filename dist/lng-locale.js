@@ -1,4 +1,3 @@
-"use strict";
 export const lngsMapLocale = {
   "Cy-az-AZ": "\u0410\u0437\u04D9\u0440\u0431\u0430\u0458\u04B9\u0430\u043D",
   "Cy-sr-SP": "\u0421\u0440\u043F\u0441\u043A\u0438",

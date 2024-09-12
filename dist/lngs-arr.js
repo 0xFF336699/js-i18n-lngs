@@ -1,4 +1,3 @@
-"use strict";
 export const lngsArr = [
   "Cy-az-AZ",
   "Cy-sr-SP",

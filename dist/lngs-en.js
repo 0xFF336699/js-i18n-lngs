@@ -1,4 +1,3 @@
-"use strict";
 export const lngsMapEn = {
   "Cy-az-AZ": "Azerbaijani (Cyrillic)",
   "Cy-sr-SP": "Serbian (Cyrillic)",

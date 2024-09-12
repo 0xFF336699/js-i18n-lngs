@@ -1,4 +1,3 @@
-"use strict";
 export * from "./gemini-supports";
 export * from "./gemini-supports-en";
 export * from "./lngs-arr";

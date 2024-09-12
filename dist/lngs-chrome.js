@@ -1,4 +1,3 @@
-"use strict";
 export const lngsChrome = {
   "af": "Afrikaans",
   "am": "Amharic",

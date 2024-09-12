@@ -1,33 +1,17 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Base",
-  "compilerOptions": {
-    "allowJs": true,
-    "noEmit": true,
-    "downlevelIteration": true,
-    "isolatedModules": true,
-    "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "noImplicitReturns": true,
-    "lib": [
-      "DOM",
-      "ESNext"
-    ],
-    "paths": {
-      "@lib/*": ["./lib/*"],
-      "@types/*":["./@types/*"]
-    },
-    "declaration": true,
-    "module": "CommonJS",
-    "target": "ES6",
-    "types": ["node"]
-  }
+	"compilerOptions": {
+		"outDir": "dist",
+		"declaration": true,
+		"module": "esnext",
+		"target": "esnext",
+		"lib": ["es6", "dom"],
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node",
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": false,
+		"experimentalDecorators": true,
+		"strictNullChecks": true
+	},
+	"include": ["lib/**/*"]
 }
-

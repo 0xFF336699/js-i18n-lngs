@@ -1,4 +1,3 @@
-"use strict";
 export const lngsChromeZhCN = {
   "af": "\u5357\u975E\u8377\u5170\u8BED",
   "am": "\u963F\u59C6\u54C8\u62C9\u8BED",
