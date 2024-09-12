@@ -1,1 +1,1 @@
-# js-i18n-lngs
+# fanfanlo-js-i18n-langs
