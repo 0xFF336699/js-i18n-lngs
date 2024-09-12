@@ -8,8 +8,5 @@ export * from './lngs-en';
 export * from './lngs-zhCN';
 export * from './lng-locale'
 
-export interface SupportLngMap {
-    [key: string]: string;
-  }
-
-  export const jsI18nLngsVersion = `1.0.26`
+export * from './type'
+export const jsI18nLngsVersion = `1.0.28`

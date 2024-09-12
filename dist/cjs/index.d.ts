@@ -7,7 +7,5 @@ export * from './lngs-chrome-zh-CN';
 export * from './lngs-en';
 export * from './lngs-zhCN';
 export * from './lng-locale';
-export interface SupportLngMap {
-    [key: string]: string;
-}
-export declare const jsI18nLngsVersion = "1.0.26";
+export * from './type';
+export declare const jsI18nLngsVersion = "1.0.28";
