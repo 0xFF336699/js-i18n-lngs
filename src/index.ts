@@ -8,5 +8,5 @@ export * from './lngs-en';
 export * from './lngs-zhCN';
 export * from './lng-locale'
 
-export * from './type'
-export const jsI18nLngsVersion = `1.0.28`
+export * from './map-type'
+export const jsI18nLngsVersion = `1.0.29`
