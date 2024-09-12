@@ -8,4 +8,5 @@ export * from "./lngs-chrome-zh-CN";
 export * from "./lngs-en";
 export * from "./lngs-zhCN";
 export * from "./lng-locale";
+export * from "./type";
 //# sourceMappingURL=index.js.map
