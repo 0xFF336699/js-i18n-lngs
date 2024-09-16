@@ -7,10 +7,11 @@ export * from './lngs-chrome-zh-CN';
 export * from './lngs-en';
 export * from './lngs-zhCN';
 export * from './lng-locale';
+export * from './pluralmap';
 export interface SupportLngMap {
     [key: string]: string;
 }
 export interface II18nMap {
     [key: string]: string | II18nMap;
 }
-export declare const jsI18nLngsVersion = "1.0.31";
+export declare const jsI18nLngsVersion = "1.0.32";
