@@ -8,6 +8,8 @@ export * from './lngs-en';
 export * from './lngs-zhCN';
 export * from './lng-locale';
 export * from './pluralmap';
+export * from './google-translate-lngs';
+export * from './google-translate-locale';
 export interface SupportLngMap {
     [key: string]: string;
 }

@@ -25,4 +25,6 @@ __exportStar(require("./lngs-en"), exports);
 __exportStar(require("./lngs-zhCN"), exports);
 __exportStar(require("./lng-locale"), exports);
 __exportStar(require("./pluralmap"), exports);
+__exportStar(require("./google-translate-lngs"), exports);
+__exportStar(require("./google-translate-locale"), exports);
 exports.jsI18nLngsVersion = "1.0.32";
