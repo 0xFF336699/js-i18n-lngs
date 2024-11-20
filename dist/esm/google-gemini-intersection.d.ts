@@ -144,6 +144,7 @@ export declare const googleGeminiIntersectionEn: {
     xh: string;
     yi: string;
     yo: string;
+    "zh-CN": string;
     "zh-TW": string;
     zu: string;
 };
@@ -293,6 +294,7 @@ export declare const googleGeminiIntersectionLocale: {
     xh: string;
     yi: string;
     yo: string;
+    "zh-CN": string;
     "zh-TW": string;
     zu: string;
 };
