@@ -10,6 +10,7 @@ export * from './lng-locale'
 export * from './pluralmap'
 export * from './google-translate-lngs'
 export * from './google-translate-locale'
+export * from './google-gemini-intersection'
 export interface SupportLngMap {
   [key: string]: string;
 }
