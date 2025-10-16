@@ -28,4 +28,7 @@ __exportStar(require("./pluralmap"), exports);
 __exportStar(require("./google-translate-lngs"), exports);
 __exportStar(require("./google-translate-locale"), exports);
 __exportStar(require("./google-gemini-intersection"), exports);
+__exportStar(require("./chineseNames"), exports);
+__exportStar(require("./englishNames"), exports);
+__exportStar(require("./localNames"), exports);
 exports.jsI18nLngsVersion = "1.0.32";

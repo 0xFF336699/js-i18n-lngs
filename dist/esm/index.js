@@ -11,4 +11,7 @@ export * from './pluralmap';
 export * from './google-translate-lngs';
 export * from './google-translate-locale';
 export * from './google-gemini-intersection';
+export * from './chineseNames';
+export * from './englishNames';
+export * from './localNames';
 export var jsI18nLngsVersion = "1.0.32";
